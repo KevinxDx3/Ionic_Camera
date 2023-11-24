@@ -1,22 +1,175 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Curriculum Vitae
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content class="container" [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-
+    <!-- <ion-toolbar>
+      <ion-title size="large">Tab 3</ion-title>
+    </ion-toolbar> -->
   </ion-header>
 
-  <ion-button vertical="bottom" horizontal="center  " id="Alerta">Mensaje</ion-button>
-  <ion-alert trigger="Alerta" header="Mensaje" subHeader="de Prueba"
-    message="Mensaje" [buttons]="alertButtons"></ion-alert>   
+  <!-- encabezado -->
+  <div class="container-vc">
+    <ion-img class="mi-imagen" src="assets/rch.jpg"></ion-img>
+    <div class="text">
+      <div class="container-text-name">
+        <h1>
+          Roberto Andrés Chacón López
+        </h1>
+        <h2>
+          Desarrollo de Software
+        </h2>
+      </div>
+      <div>
+        <p>
+          CC: 1722015235
+        </p>
+        <p>
+          Email: robertochacon9514&#64;hotmail.com
+        </p>
+        <p>
+          Teléfono: 0999779340
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- fin encabezado -->
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <!-- contenedor informacion -->
+  <div class="container-info">
+    <div class="profile">
+      <div class="line">
+        <h3 class="title-profile">
+          PERFIL
+        </h3>
+      </div>
+      
+      <p class="text-profile">
+        Soy un estudiante de software apasionado por el desarrollo de soluciones tecnológicas innovadoras,
+        estoy cursando mis últimos niveles en la Universidad “Escuela Politécnica Nacional”. Durante mi carrera
+        he tenido la oportunidad de desarrollar software en diversos proyectos, entre los que destaca el diseño
+        web y desarrollo de calidad de software en gestión de inventarios. Además, he adquirido habilidades
+        en lenguajes de programación como Java, Python, entre otros, así como en el diseño de bases de
+        datos y metodologías de desarrollo de software. Mi pasión por el software me ha llevado a explorar
+        diferentes proyectos y oportunidades académicas, estoy emocionado por seguir aprendiendo y
+        creciendo en este campo.
+      </p>
+    </div>
+
+    <div class="aptitudes">
+      <div class="line">
+        <h3 class="title-profile">
+          APTITUDES 
+        </h3>
+      </div>
+
+      <ul>
+        <li>Trabajo en equipo</li>
+        <li>Responsabilidad ante tareas</li>
+        <li>Adaptabilidad </li>
+        <li>Creatividad e innovación</li>
+        <li>Afán de superación</li>
+        <li>Optimismo</li>
+        <li>Compromiso</li>
+      </ul> 
+    </div>
+
+
+    <div class="habilidades">
+      <div class="line">
+        <h3 class="title-profile">
+          HABILIDADES TECNOLÓGICAS  
+        </h3>
+      </div>
+      <table>
+        <tr>
+          <td>Lenguajes de programación</td>
+          <td>++, Java, Python.</td>
+        </tr>
+        <tr>
+          <td>Bases de datos</td>
+          <td>SQL server, SQLite, phpMyAdmin, mongoDB, couchDB.</td>
+        </tr>
+        <tr>
+          <td>Análisis de datos </td>
+          <td>Conocimiento en proceso de exploración, transformación y 
+            examinación de datos.</td>
+        </tr>
+        <tr>
+          <td>Desarrollo web </td>
+          <td>Conocimientos en frontend y backend, Html, Css, Javascript, Php.</td>
+        </tr>
+        <tr>
+          <td>Arquitectura de computadoras</td>
+          <td>Conocimiento en la estructura operacional fundamental de un 
+            sistema de computadoras y mantenimiento de computadoras. </td>
+        </tr>
+        <tr>
+          <td>Sistemas operativos</td>
+          <td>Windows, Linux.</td>
+        </tr>
+        <tr>
+          <td>Desarrollo de IOT</td>
+          <td>Conocimiento básico de componentes de IOT y programación en 
+            Arduino.</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="formacion">
+      <div class="line">
+        <h3 class="title-profile">
+          FORMACIÓN ACADÉMICA 
+        </h3>
+      </div>
+
+      <table>
+        <tr>
+          <td>
+            <div class="titulo">Escuela Simón Bolívar</div>      
+          </td>
+          <td>Quito, 2001 - 2007</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="titulo">Bachiller en Mecánica industrial</div>
+            <p class="periodo">Instituto tecnológico superior “Central técnico”</p>
+          </td>
+          <td>Quito, 2007 - 2014</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="titulo">Preuniversitario</div>
+            <p class="periodo">Universidad de las fuerzas armadas “ESPE”</p>
+          </td>
+          <td>Quito, 2016 - 2017</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="titulo">Desarrollo de software </div>
+            <p class="periodo">Universidad Escuela Politécnica Nacional</p>
+          </td>
+          <td>Quito, 2018 - a la fecha</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="titulo">Ingles 2A </div>
+            <p class="periodo">Centro de educación continua EPN</p>
+          </td>
+          <td>Quito, 2021 - 2022</td>
+        </tr>
+
+      </table>
+
+    </div>
+
+
+  </div>
+
+  <!-- <app-explore-container name="Tab 3 page"></app-explore-container> -->
 </ion-content>

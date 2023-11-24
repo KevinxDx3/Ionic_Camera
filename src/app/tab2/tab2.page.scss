@@ -1,0 +1,121 @@
+.container {
+    background-color: #ffffff;
+}
+
+// encabezado
+.container-vc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 30%;
+    margin: 2rem;
+    background-color: #000D38;
+}
+
+.mi-imagen {
+    width: 50%;
+    max-width: 150px;
+    height: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.text p {
+    color: #ffffff;
+}
+
+.container-text-name {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #ffffff;
+} 
+h2 {
+    color: #ffffff;
+}
+// fin encabezado
+
+// contenedor informacion
+.container-info {
+    margin: 2rem;
+}
+
+// perfil
+.profile {
+    margin-bottom: 4rem;
+}
+
+.line {
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    text-align: justify; 
+}
+
+.title-profile {
+    color: #000000;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.text-profile {
+    color: #000000;
+    text-align: justify; 
+}
+// fin perfil
+
+// aptitudes
+.aptitudes {
+    margin-bottom: 4rem;
+}
+// fin aptitudes
+
+// habilidades
+
+.habilidades {
+    margin-bottom: 4rem;
+}
+
+table {
+    width: 100%; /* Ajusta el ancho de la tabla según sea necesario */
+    border-collapse: collapse; /* Fusiona los bordes de las celdas para una apariencia más limpia */
+    margin-top: 20px; /* Ajusta el espacio entre el párrafo y la tabla */
+}
+
+.habilidades td {
+    border: 1px solid #000000; /* Agrega bordes a las celdas de la tabla */
+    padding: 8px; /* Ajusta el espacio interno de las celdas */
+    text-align: left; /* Alinea el texto a la izquierda en las celdas */
+}
+// fin habilidades
+
+// formacion
+.formacion td {
+    padding: 8px; 
+    text-align: left; 
+}
+
+td {
+    padding: 30px;
+    text-align: left;
+}
+
+.titulo {
+    font-weight: bold;
+}
+
+.periodo {
+    font-style: italic;
+    margin-top: 5px;
+}
+// fin formacion
+
+
+
+
+
+
+
+

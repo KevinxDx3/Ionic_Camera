@@ -1,0 +1,31 @@
+.container-vc{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.mi-imagen{
+    width: 50%;
+    max-width: 150px;
+    height: auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;   
+  
+}
+
+.lefth_side{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    flex: auto;
+    background-color: rgb(255, 145, 0);
+}
+
+.right_side{
+    flex: auto;
+    background-color: aquamarine;
+}
